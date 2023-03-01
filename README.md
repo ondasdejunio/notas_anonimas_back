@@ -2,9 +2,9 @@
 Servidor creado con Java 17 y Spring Boot 3.0.0 para proporcionar una API RESTful que funciona junto con el proyecto de front-end Notas Anónimas de React JS, utilizando una base de datos SQL con MySQL.
 
 ## Configuración
-- Clonar este repositorio.
-- Configurar los detalles de la base de datos en application.properties.
-- Ejecutar el comando mvn spring-boot:run para iniciar el servidor.
+1. Clonar este repositorio.
+2. Configurar los detalles de la base de datos en application.properties.
+3. Ejecutar el comando mvn spring-boot:run para iniciar el servidor.
 
 ## Autenticación JWT con Spring Security
 Este servidor utiliza Spring Security para proporcionar autenticación JWT. Se debe enviar una solicitud de inicio de sesión con las credenciales correctas para obtener un token JWT que se utilizará para acceder a todas las rutas protegidas.
